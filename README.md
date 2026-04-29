@@ -1,35 +1,16 @@
 # Cuddle
 
-> ⚠️ **EPITECH PROJECT**
-> This project is a student project created as part of the Epitech curriculum.
-> **Any reuse, copying, or plagiarism of this code is strictly forbidden and may result in penalties for academic dishonesty.**
+**⚠️ AVERTISSEMENT : Ce programme est un projet Epitech. Il est strictement interdit de le réutiliser, de le cloner ou de s'en inspirer pour un de vos rendus académiques sous peine de sanctions pour plagiat (cheat).**
 
-## Description
+## 📝 Description
 
-**Cuddle** is a C library for data manipulation and analysis, strongly inspired by pandas in Python. It provides a `dataframe_t` structure and a set of utility functions to read, process, and extract statistics from dataset files (CSV). 
+**Cuddle** is a C library for data manipulation and analysis, strongly inspired by pandas in Python. It provides a `dataframe_t` structure and a set of utility functions to read, process, and extract statistics from dataset files (CSV).
 
-## Features
+## 🛠️ Compilation
 
-- **I/O Operations:** Read and write CSV files dynamically with type deduction.
-- **Data Inspection:** View the shape of the dataset, print general information, describe basic statistics (sum, min, max, etc.), and view the head/tail of the data.
-- **Data Manipulation:**
-  - `df_sort`: Sort datasets based on a specific column.
-  - `df_filter`: Filter rows using a custom boolean function.
-  - `df_apply`: Apply a transformation function to all values of a column.
-  - `df_groupby`: Aggregate data by unique values in a column.
-  - `df_to_type`: Downcast or change the type of a column's data.
+Instructions de compilation non trouvées.
 
-## Build
-
-You can build the project using the provided `Makefile`:
-
-```bash
-make
-```
-
-Ensure you have a standard C compiler (like `gcc`) and `make` installed on your system.
-
-## Usage
+## 🚀 Utilisation
 
 Here is a quick example of how to use the Cuddle library in your own C programs:
 
@@ -68,7 +49,26 @@ int main(void)
 }
 ```
 
-## Supported Column Types
+## 📋 📋 Features
+
+- **I/O Operations:** Read and write CSV files dynamically with type deduction.
+- **Data Inspection:** View the shape of the dataset, print general information, describe basic statistics (sum, min, max, etc.), and view the head/tail of the data.
+- **Data Manipulation:**
+  - `df_sort`: Sort datasets based on a specific column.
+  - `df_filter`: Filter rows using a custom boolean function.
+  - `df_apply`: Apply a transformation function to all values of a column.
+  - `df_groupby`: Aggregate data by unique values in a column.
+  - `df_to_type`: Downcast or change the type of a column's data.
+## 📋 📋 Build
+
+You can build the project using the provided `Makefile`:
+
+```bash
+make
+```
+
+Ensure you have a standard C compiler (like `gcc`) and `make` installed on your system.
+## 📋 📋 Supported Column Types
 
 The library automatically detects and supports various column types:
 - `BOOL`
@@ -77,7 +77,6 @@ The library automatically detects and supports various column types:
 - `FLOAT`
 - `STRING`
 - `UNDEFINED`
-
-## Disclaimer
+## 📋 📋 Disclaimer
 
 This repository is for educational purposes. Please respect Epitech's policy on cheating and code sharing.
